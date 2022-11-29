@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url(backim.jpg)no-repeat;
+	background-size: cover;
+}
+
+.container{
+    width: 400px;
+    height: 450px;
+    background-color: #ffa51d;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+    padding: 20px 0 0 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 130px black;
+}
+
+input{
+    width: 80%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+
+h2{
+    margin-top: 40px;
+}
